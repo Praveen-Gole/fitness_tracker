@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Fitness Tracker</a>
+            <div class="nav-links">
+                <a href="#">Dashboard</a>
+                <a href="#">Log Workouts</a>
+                <a href="#">Progress</a>
+                <a href="#">Challenges</a>
+                <a href="#">Profile</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar and Content -->
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Workouts</a></li>
+                <li><a href="#">Progress</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Recent Workouts Section -->
+            <section class="card">
+                <h2>Recent Workouts</h2>
+                <button class="btn-primary">Log Workout</button>
+                <div class="workout-list">
+                    <img src="https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=gabin-vallet-J154nEkpzlQ-unsplash.jpg" alt="Workout 1">
+                    <img src="https://wallpaperaccess.com/download/4k-fitness-804834" alt="Workout 2">
+                </div>
+            </section>
+
+            <!-- Progress Tracking Section -->
+            <section class="card">
+                <h2>Progress Tracking</h2>
+                <img src="https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?cs=srgb&dl=pexels-823sl-2294361.jpg&fm=jpg" alt="Progress Chart">
+            </section>
+
+            <!-- Fitness Challenges Section -->
+            <section class="card">
+                <h2>Fitness Challenges</h2>
+                <button class="btn-primary">Join New Challenge</button>
+                <ul>
+                    <li>10K Steps Challenge</li>
+                    <li>Yoga Challenge</li>
+                    <li>Weightlifting Challenge</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
